@@ -1,7 +1,7 @@
 log
 target/classes
 target/generated-sources
-target/maven-archivr
+target/maven-archiver
 target/maven-status
 target/spring-vault-demo-1.0.jar.original
 role-id.json
