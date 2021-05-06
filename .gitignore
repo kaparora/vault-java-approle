@@ -1,0 +1,10 @@
+log
+target/classes
+target/generated-sources
+target/maven-archivr
+target/maven-status
+target/spring-vault-demo-1.0.jar.original
+role-id.json
+role_id
+secret_id
+secret.json

@@ -1,0 +1,20 @@
+spring.application.name: spring-vault-demo
+spring.cloud.vault:
+    authentication: APPROLE
+    app-role:
+        role-id: ${ROLE_ID}
+        secret-id: ${SECRET_ID}
+    host: vault
+    port: 8200
+    scheme: http
+    fail-fast: true
+    config.lifecycle.enabled: true
+    generic:
+      enabled: true
+      backend: secret
+    database:
+        enabled: true
+        role: order
+        backend: database
+spring.datasource:
+  url: jdbc:postgresql://postgres:5432/postgres
